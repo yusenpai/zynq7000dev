@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1099,6 +1099,153 @@
       "/USB HS PHY/USB_D-": [
         "USB"
       ],
+      "DRAM_A0": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A1": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A10": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A11": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A12": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A13": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A14": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A2": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A3": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A4": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A5": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A6": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A7": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A8": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_A9": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_BA0": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_BA1": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_BA2": [
+        "DRAM_ADDR"
+      ],
+      "DRAM_CASN": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_CKE": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_CLK_N": [
+        "DRAM_CLK"
+      ],
+      "DRAM_CLK_P": [
+        "DRAM_CLK"
+      ],
+      "DRAM_CSN": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_DM0": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_DM1": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_DQ0": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ1": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ10": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ11": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ12": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ13": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ14": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ15": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ2": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ3": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ4": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ5": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ6": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ7": [
+        "DRAM_BYTE_0"
+      ],
+      "DRAM_DQ8": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQ9": [
+        "DRAM_BYTE_1"
+      ],
+      "DRAM_DQS0_N": [
+        "DRAM_CLK"
+      ],
+      "DRAM_DQS0_P": [
+        "DRAM_CLK"
+      ],
+      "DRAM_DQS1_N": [
+        "DRAM_CLK"
+      ],
+      "DRAM_DQS1_P": [
+        "DRAM_CLK"
+      ],
+      "DRAM_ODT": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_RASN": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_RSTN": [
+        "DRAM_CTRL"
+      ],
+      "DRAM_WEN": [
+        "DRAM_CTRL"
+      ],
       "ETH_MDCK": [
         "ETH_MIO"
       ],
@@ -1618,6 +1765,10 @@
     [
       "17ba46b2-4fcf-4df1-9e0f-d12712bbed77",
       "PS Configuration"
+    ],
+    [
+      "d06ebb97-b42c-404a-942b-9ba0ac86bfe4",
+      "DRAM Controller"
     ]
   ],
   "text_variables": {}
