@@ -468,7 +468,7 @@
   },
   "meta": {
     "filename": "zynq7000.kicad_pro",
-    "version": 3
+    "version": 1
   },
   "net_settings": {
     "classes": [
@@ -483,7 +483,6 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.4,
@@ -491,1086 +490,283 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.09,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DRAM_ADDR",
         "pcb_color": "rgb(140, 170, 238)",
-        "priority": 8,
         "schematic_color": "rgb(254, 100, 11)",
         "track_width": 0.1,
         "via_diameter": 0.4,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.09,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DRAM_BYTE_0",
         "pcb_color": "rgb(166, 209, 137)",
-        "priority": 7,
         "schematic_color": "rgb(210, 15, 57)",
-        "track_width": 0.1
+        "track_width": 0.1,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DRAM_BYTE_1",
         "pcb_color": "rgb(229, 200, 144)",
-        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1
+        "track_width": 0.1,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.09,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DRAM_CLK",
         "pcb_color": "rgb(239, 159, 118)",
-        "priority": 6,
-        "schematic_color": "rgb(234, 118, 203)"
+        "schematic_color": "rgb(234, 118, 203)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.09,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DRAM_CTRL",
         "pcb_color": "rgb(244, 184, 228)",
-        "priority": 5,
         "schematic_color": "rgb(220, 138, 120)",
-        "track_width": 0.1
+        "track_width": 0.1,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ETH_MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 14,
         "schematic_color": "rgb(230, 69, 83)",
+        "track_width": 0.2,
         "via_diameter": 0.4,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ETH_MIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
-        "schematic_color": "rgb(136, 57, 239)"
+        "schematic_color": "rgb(136, 57, 239)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ETH_RGMII",
         "pcb_color": "rgb(64, 160, 43)",
-        "priority": 15,
-        "schematic_color": "rgb(223, 142, 29)"
+        "schematic_color": "rgb(223, 142, 29)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "I2S",
         "pcb_color": "rgb(221, 120, 120)",
-        "priority": 3,
-        "schematic_color": "rgb(114, 135, 253)"
+        "schematic_color": "rgb(114, 135, 253)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "JTAG",
         "pcb_color": "rgb(223, 142, 29)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "QSPI",
         "pcb_color": "rgb(254, 100, 11)",
-        "priority": 11,
-        "schematic_color": "rgb(30, 102, 245)"
+        "schematic_color": "rgb(30, 102, 245)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SDIO",
         "pcb_color": "rgb(136, 57, 239)",
-        "priority": 9,
-        "schematic_color": "rgb(64, 160, 43)"
+        "schematic_color": "rgb(64, 160, 43)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "TMDS",
         "pcb_color": "rgb(4, 165, 229)",
-        "priority": 4,
-        "schematic_color": "rgb(32, 159, 181)"
+        "schematic_color": "rgb(32, 159, 181)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(223, 142, 29)"
+        "schematic_color": "rgb(223, 142, 29)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "ULPI",
         "pcb_color": "rgb(30, 102, 245)",
-        "priority": 12,
-        "schematic_color": "rgb(221, 120, 120)"
+        "schematic_color": "rgb(221, 120, 120)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
-        "schematic_color": "rgb(4, 165, 229)"
+        "schematic_color": "rgb(4, 165, 229)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Configuration/FTDI/USB_JTAG_D+": [
-        "USB"
-      ],
-      "/Configuration/FTDI/USB_JTAG_D-": [
-        "USB"
-      ],
-      "/DRAM DDR3/DRAM_A0": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A1": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A10": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A11": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A12": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A13": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A14": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A2": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A3": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A4": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A5": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A6": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A7": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A8": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_A9": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_BA0": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_BA1": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_BA2": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM DDR3/DRAM_CASN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_CKE": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_CLK_N": [
-        "DRAM_CLK"
-      ],
-      "/DRAM DDR3/DRAM_CLK_P": [
-        "DRAM_CLK"
-      ],
-      "/DRAM DDR3/DRAM_CSN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_DM0": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_DM1": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_DQ0": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ1": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ10": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ11": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ12": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ13": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ14": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ15": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ2": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ3": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ4": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ5": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ6": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ7": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM DDR3/DRAM_DQ8": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQ9": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM DDR3/DRAM_DQS0_N": [
-        "DRAM_CLK"
-      ],
-      "/DRAM DDR3/DRAM_DQS0_P": [
-        "DRAM_CLK"
-      ],
-      "/DRAM DDR3/DRAM_DQS1_N": [
-        "DRAM_CLK"
-      ],
-      "/DRAM DDR3/DRAM_DQS1_P": [
-        "DRAM_CLK"
-      ],
-      "/DRAM DDR3/DRAM_ODT": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_RASN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_RSTN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM DDR3/DRAM_WEN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_A0": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A1": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A10": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A11": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A12": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A13": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A14": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A2": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A3": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A4": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A5": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A6": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A7": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A8": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_A9": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_BA0": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_BA1": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_BA2": [
-        "DRAM_ADDR"
-      ],
-      "/DRAM/DRAM_CASN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_CKE": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_CLK_N": [
-        "DRAM_CLK"
-      ],
-      "/DRAM/DRAM_CLK_P": [
-        "DRAM_CLK"
-      ],
-      "/DRAM/DRAM_CSN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_DM0": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_DM1": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_DQ0": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ1": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ10": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ11": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ12": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ13": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ14": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ15": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ2": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ3": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ4": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ5": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ6": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ7": [
-        "DRAM_BYTE_0"
-      ],
-      "/DRAM/DRAM_DQ8": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQ9": [
-        "DRAM_BYTE_1"
-      ],
-      "/DRAM/DRAM_DQS0_N": [
-        "DRAM_CLK"
-      ],
-      "/DRAM/DRAM_DQS0_P": [
-        "DRAM_CLK"
-      ],
-      "/DRAM/DRAM_DQS1_N": [
-        "DRAM_CLK"
-      ],
-      "/DRAM/DRAM_DQS1_P": [
-        "DRAM_CLK"
-      ],
-      "/DRAM/DRAM_ODT": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_RASN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_RSTN": [
-        "DRAM_CTRL"
-      ],
-      "/DRAM/DRAM_WEN": [
-        "DRAM_CTRL"
-      ],
-      "/FTDI/USB_JTAG_D+": [
-        "USB"
-      ],
-      "/FTDI/USB_JTAG_D-": [
-        "USB"
-      ],
-      "/Gigabit Ethernet PHY/ETH_RXCTL_R": [
-        "ETH_RGMII"
-      ],
-      "/Gigabit Ethernet PHY/ETH_RXC_R": [
-        "ETH_RGMII"
-      ],
-      "/Gigabit Ethernet PHY/ETH_RXD0_R": [
-        "ETH_RGMII"
-      ],
-      "/Gigabit Ethernet PHY/ETH_RXD1_R": [
-        "ETH_RGMII"
-      ],
-      "/Gigabit Ethernet PHY/ETH_RXD2_R": [
-        "ETH_RGMII"
-      ],
-      "/Gigabit Ethernet PHY/ETH_RXD3_R": [
-        "ETH_RGMII"
-      ],
-      "/Gigabit Ethernet PHY/MDI0+": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI0-": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI1+": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI1-": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI2+": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI2-": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI3+": [
-        "ETH_MDI"
-      ],
-      "/Gigabit Ethernet PHY/MDI3-": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/ETH_TXCTL_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/ETH_TXC_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/ETH_TXD0_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/ETH_TXD1_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/ETH_TXD2_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/ETH_TXD3_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/ETH_RXCTL_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/ETH_RXC_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/ETH_RXD0_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/ETH_RXD1_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/ETH_RXD2_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/ETH_RXD3_R": [
-        "ETH_RGMII"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI0+": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI0-": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI1+": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI1-": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI2+": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI2-": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI3+": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/Gigabit Ethernet PHY/MDI3-": [
-        "ETH_MDI"
-      ],
-      "/PS IO pins/USB HS PHY/USB_D+": [
-        "USB"
-      ],
-      "/PS IO pins/USB HS PHY/USB_D-": [
-        "USB"
-      ],
-      "/Processor GPIO/ETH_TXCTL_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/ETH_TXC_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/ETH_TXD0_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/ETH_TXD1_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/ETH_TXD2_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/ETH_TXD3_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/ETH_RXCTL_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/ETH_RXC_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/ETH_RXD0_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/ETH_RXD1_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/ETH_RXD2_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/ETH_RXD3_R": [
-        "ETH_RGMII"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI0+": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI0-": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI1+": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI1-": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI2+": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI2-": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI3+": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/Gigabit Ethernet/MDI3-": [
-        "ETH_MDI"
-      ],
-      "/Processor GPIO/USB HS PHY/USB_D+": [
-        "USB"
-      ],
-      "/Processor GPIO/USB HS PHY/USB_D-": [
-        "USB"
-      ],
-      "/USB HS PHY/USB_D+": [
-        "USB"
-      ],
-      "/USB HS PHY/USB_D-": [
-        "USB"
-      ],
-      "DRAM_A0": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A1": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A10": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A11": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A12": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A13": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A14": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A2": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A3": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A4": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A5": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A6": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A7": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A8": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_A9": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_BA0": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_BA1": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_BA2": [
-        "DRAM_ADDR"
-      ],
-      "DRAM_CASN": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_CKE": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_CLK_N": [
-        "DRAM_CLK"
-      ],
-      "DRAM_CLK_P": [
-        "DRAM_CLK"
-      ],
-      "DRAM_CSN": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_DM0": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_DM1": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_DQ0": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ1": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ10": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ11": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ12": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ13": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ14": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ15": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ2": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ3": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ4": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ5": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ6": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ7": [
-        "DRAM_BYTE_0"
-      ],
-      "DRAM_DQ8": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQ9": [
-        "DRAM_BYTE_1"
-      ],
-      "DRAM_DQS0_N": [
-        "DRAM_CLK"
-      ],
-      "DRAM_DQS0_P": [
-        "DRAM_CLK"
-      ],
-      "DRAM_DQS1_N": [
-        "DRAM_CLK"
-      ],
-      "DRAM_DQS1_P": [
-        "DRAM_CLK"
-      ],
-      "DRAM_ODT": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_RASN": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_RSTN": [
-        "DRAM_CTRL"
-      ],
-      "DRAM_WEN": [
-        "DRAM_CTRL"
-      ],
-      "ETH_MDCK": [
-        "ETH_MIO"
-      ],
-      "ETH_MDIO": [
-        "ETH_MIO"
-      ],
-      "ETH_RXCK": [
-        "ETH_RGMII"
-      ],
-      "ETH_RXCT": [
-        "ETH_RGMII"
-      ],
-      "ETH_RXD0": [
-        "ETH_RGMII"
-      ],
-      "ETH_RXD1": [
-        "ETH_RGMII"
-      ],
-      "ETH_RXD2": [
-        "ETH_RGMII"
-      ],
-      "ETH_RXD3": [
-        "ETH_RGMII"
-      ],
-      "ETH_TXCK": [
-        "ETH_RGMII"
-      ],
-      "ETH_TXCT": [
-        "ETH_RGMII"
-      ],
-      "ETH_TXD0": [
-        "ETH_RGMII"
-      ],
-      "ETH_TXD1": [
-        "ETH_RGMII"
-      ],
-      "ETH_TXD2": [
-        "ETH_RGMII"
-      ],
-      "ETH_TXD3": [
-        "ETH_RGMII"
-      ],
-      "FPGA_PS_NRST": [
-        "JTAG"
-      ],
-      "FPGA_PS_SRST_B": [
-        "JTAG"
-      ],
-      "FPGA_TCK": [
-        "JTAG"
-      ],
-      "FPGA_TDI": [
-        "JTAG"
-      ],
-      "FPGA_TDO": [
-        "JTAG"
-      ],
-      "FPGA_TMS": [
-        "JTAG"
-      ],
-      "HDMI_CLK_N": [
-        "TMDS"
-      ],
-      "HDMI_CLK_P": [
-        "TMDS"
-      ],
-      "HDMI_DAT0_N": [
-        "TMDS"
-      ],
-      "HDMI_DAT0_P": [
-        "TMDS"
-      ],
-      "HDMI_DAT1_N": [
-        "TMDS"
-      ],
-      "HDMI_DAT1_P": [
-        "TMDS"
-      ],
-      "HDMI_DAT2_N": [
-        "TMDS"
-      ],
-      "HDMI_DAT2_P": [
-        "TMDS"
-      ],
-      "I2S_DIN": [
-        "I2S"
-      ],
-      "I2S_DOUT": [
-        "I2S"
-      ],
-      "I2S_LRCK": [
-        "I2S"
-      ],
-      "I2S_MCLK": [
-        "I2S"
-      ],
-      "I2S_SCLK": [
-        "I2S"
-      ],
-      "Net-(J10-MDI0+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI0-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI1+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI1-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI2+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI2-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI3+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J10-MDI3-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J3-MDI0+)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI0-)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI1+)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI1-)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI2+)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI2-)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI3+)": [
-        "MDI"
-      ],
-      "Net-(J3-MDI3-)": [
-        "MDI"
-      ],
-      "Net-(J6-MDI0+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI0-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI1+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI1-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI2+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI2-)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI3+)": [
-        "ETH_MDI"
-      ],
-      "Net-(J6-MDI3-)": [
-        "ETH_MDI"
-      ],
-      "Net-(U1G-PS_MIO40_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO42_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO44_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO45_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO46_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO47_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO48_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO49_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO50_501)": [
-        "ULPI"
-      ],
-      "Net-(U1G-PS_MIO51_501)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA0)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA1)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA2)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA3)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA4)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA5)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA6)": [
-        "ULPI"
-      ],
-      "Net-(U7-DATA7)": [
-        "ULPI"
-      ],
-      "Net-(U7-DIR)": [
-        "ULPI"
-      ],
-      "Net-(U7-NXT)": [
-        "ULPI"
-      ],
-      "QSPI0_CK": [
-        "QSPI"
-      ],
-      "QSPI0_CSN": [
-        "QSPI"
-      ],
-      "QSPI0_D0": [
-        "QSPI"
-      ],
-      "QSPI0_D1": [
-        "QSPI"
-      ],
-      "QSPI0_D2": [
-        "QSPI"
-      ],
-      "QSPI0_D3": [
-        "QSPI"
-      ],
-      "SDIO1_CD": [
-        "SDIO"
-      ],
-      "SDIO1_CLK": [
-        "SDIO"
-      ],
-      "SDIO1_CMD": [
-        "SDIO"
-      ],
-      "SDIO1_D0": [
-        "SDIO"
-      ],
-      "SDIO1_D1": [
-        "SDIO"
-      ],
-      "SDIO1_D2": [
-        "SDIO"
-      ],
-      "SDIO1_D3": [
-        "SDIO"
-      ],
-      "UART1_RX": [
-        "UART"
-      ],
-      "UART1_TX": [
-        "UART"
-      ],
-      "UART2_RX": [
-        "UART"
-      ],
-      "UART2_TX": [
-        "UART"
-      ],
-      "UART3_RX": [
-        "UART"
-      ],
-      "UART3_TX": [
-        "UART"
-      ],
-      "ULPI_CLK": [
-        "ULPI"
-      ],
-      "ULPI_D0": [
-        "ULPI"
-      ],
-      "ULPI_D1": [
-        "ULPI"
-      ],
-      "ULPI_D2": [
-        "ULPI"
-      ],
-      "ULPI_D3": [
-        "ULPI"
-      ],
-      "ULPI_D4": [
-        "ULPI"
-      ],
-      "ULPI_D5": [
-        "ULPI"
-      ],
-      "ULPI_D6": [
-        "ULPI"
-      ],
-      "ULPI_D7": [
-        "ULPI"
-      ],
-      "ULPI_DIR": [
-        "ULPI"
-      ],
-      "ULPI_NXT": [
-        "ULPI"
-      ],
-      "ULPI_STP": [
-        "ULPI"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "DRAM_ADDR",
@@ -1598,23 +794,23 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../../Documents/bom/stage/zynq7000.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": "\t",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -1629,10 +825,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -1648,12 +844,144 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

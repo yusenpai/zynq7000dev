@@ -7915,8 +7915,8 @@
 		)
 	)
 	(rectangle
-		(start 76.2 25.4)
-		(end 203.2 152.4)
+		(start 63.5 25.4)
+		(end 215.9 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -7928,7 +7928,7 @@
 	)
 	(text "DRAM Controller"
 		(exclude_from_sim no)
-		(at 76.2 24.13 0)
+		(at 63.5 25.4 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7936,7 +7936,7 @@
 				(bold yes)
 				(italic yes)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "8aaddac1-dd70-4874-a264-9e489c048e47")
 	)
@@ -8344,7 +8344,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 111.76) (xy 81.28 113.03)
+			(xy 77.47 111.76) (xy 77.47 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8354,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 115.57) (xy 106.68 115.57)
+			(xy 77.47 115.57) (xy 106.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8364,7 +8364,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 113.03) (xy 106.68 113.03)
+			(xy 77.47 113.03) (xy 106.68 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8434,7 +8434,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 105.41) (xy 81.28 106.68)
+			(xy 77.47 105.41) (xy 77.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8504,7 +8504,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 118.11) (xy 81.28 115.57)
+			(xy 77.47 118.11) (xy 77.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8634,7 +8634,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 81.28 124.46)
+			(xy 77.47 123.19) (xy 77.47 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8780,6 +8780,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -8801,6 +8802,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -8822,6 +8824,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -8843,6 +8846,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -8864,6 +8868,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -8885,6 +8890,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -8906,6 +8912,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -8927,6 +8934,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -8948,6 +8956,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -8969,6 +8978,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -8990,6 +9000,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9011,6 +9022,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9032,6 +9044,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9053,6 +9066,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9074,6 +9088,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9095,6 +9110,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9116,6 +9132,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9137,6 +9154,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9158,6 +9176,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9179,6 +9198,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9200,6 +9220,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9221,6 +9242,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9242,6 +9264,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9263,6 +9286,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9284,6 +9308,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9305,6 +9330,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9326,6 +9352,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9347,6 +9374,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9368,6 +9396,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9389,6 +9418,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9410,6 +9440,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9431,6 +9462,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9452,6 +9484,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9473,6 +9506,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9494,6 +9528,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9515,6 +9550,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9536,6 +9572,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9557,6 +9594,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9578,6 +9616,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9599,6 +9638,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9620,6 +9660,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9641,6 +9682,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9662,6 +9704,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -9683,6 +9726,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9704,6 +9748,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9725,6 +9770,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9746,6 +9792,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9767,6 +9814,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9788,6 +9836,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -9979,7 +10028,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 124.46 0)
+		(at 77.47 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9988,7 +10037,7 @@
 		(fields_autoplaced yes)
 		(uuid "261a720b-b691-43ff-8be0-4b6a98c8d872")
 		(property "Reference" "#PWR026"
-			(at 81.28 130.81 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +10046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 129.54 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +10055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 124.46 0)
+			(at 77.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 124.46 0)
+			(at 77.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +10073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 124.46 0)
+			(at 77.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11391,7 +11440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 100.33 144.7862 0)
 			(effects
 				(font
@@ -11444,7 +11493,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 81.28 105.41 0)
+		(at 77.47 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11452,7 +11501,7 @@
 		(dnp no)
 		(uuid "a0a271a5-b2d8-45e6-9e51-0c9d07037922")
 		(property "Reference" "#PWR020"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11510,7 @@
 			)
 		)
 		(property "Value" "VCC_DDR"
-			(at 81.28 101.6 0)
+			(at 77.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 105.41 0)
+			(at 77.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 105.41 0)
+			(at 77.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 81.28 105.41 0)
+			(at 77.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11558,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 120.65 0)
+		(at 77.47 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11517,7 +11566,7 @@
 		(dnp no)
 		(uuid "afebbd43-7f50-4b07-a36e-366991c44c7e")
 		(property "Reference" "R5"
-			(at 82.55 119.3801 0)
+			(at 78.74 119.3801 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11525,8 +11574,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90R"
-			(at 82.55 121.92 0)
+		(property "Value" "120R"
+			(at 78.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11584,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 120.65 0)
+			(at 77.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 120.65 0)
+			(at 77.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11602,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 81.28 120.65 0)
+			(at 77.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11595,7 +11644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 92.71 144.7862 0)
 			(effects
 				(font
@@ -11715,7 +11764,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 109.22 0)
+		(at 77.47 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11723,7 +11772,7 @@
 		(dnp no)
 		(uuid "fa4475d2-6e28-47c7-875d-43cc62e748eb")
 		(property "Reference" "R2"
-			(at 82.55 107.9501 0)
+			(at 78.74 107.9501 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11731,8 +11780,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90R"
-			(at 82.55 110.49 0)
+		(property "Value" "120R"
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11790,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +11799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,7 +11808,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 81.28 109.22 0)
+			(at 77.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7207,6 +7207,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7228,6 +7229,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7249,6 +7251,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7270,6 +7273,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7291,6 +7295,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7312,6 +7317,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7333,6 +7339,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -7355,6 +7362,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -7980,7 +7988,7 @@
 				)
 			)
 		)
-		(property "Value" "ASE-40MHz"
+		(property "Value" "40MHz"
 			(at 97.282 140.208 0)
 			(effects
 				(font
@@ -8456,7 +8464,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "1u"
 			(at 117.348 152.4 0)
 			(effects
 				(font

@@ -1214,12 +1214,6 @@
 		(uuid "441018c5-3e07-4288-92f5-ad10b1a9b66f")
 	)
 	(junction
-		(at 138.43 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "447fd558-1329-4341-a948-616f09a6f251")
-	)
-	(junction
 		(at 96.52 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1236,12 +1230,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a2eb542-92fa-4273-99dd-81de6dddc4c8")
-	)
-	(junction
-		(at 166.37 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b2e5ebb-10c8-43a6-9375-d22f802fb649")
 	)
 	(junction
 		(at 90.17 107.95)
@@ -1481,6 +1469,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 59.69) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b7b922-e1c4-44e0-9b76-435a9fc36221")
+	)
+	(wire
+		(pts
 			(xy 110.49 74.93) (xy 123.19 74.93)
 		)
 		(stroke
@@ -1601,23 +1599,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 60.96) (xy 177.8 60.96)
+			(xy 143.51 58.42) (xy 143.51 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e119cc3-2208-4a10-b9fe-a12436989a72")
-	)
-	(wire
-		(pts
-			(xy 138.43 59.69) (xy 143.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8417b52-d88c-4b21-a641-3551ccb47b92")
+		(uuid "9ef99714-c8a7-4e2b-95d4-930064a0fdf8")
 	)
 	(wire
 		(pts
@@ -1628,16 +1616,6 @@
 			(type default)
 		)
 		(uuid "b180a5d8-7b7b-4b4c-8129-787245c54cef")
-	)
-	(wire
-		(pts
-			(xy 143.51 59.69) (xy 143.51 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb098a37-5de5-427c-b959-070077817676")
 	)
 	(wire
 		(pts
@@ -1887,6 +1865,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -1908,6 +1887,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -1929,6 +1909,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -1950,6 +1931,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -1971,6 +1953,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -1992,6 +1975,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -2013,6 +1997,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -2334,6 +2319,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 177.8 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39cf307f-74ee-4799-81d2-4876a32a5435")
+		(property "Reference" "#PWR0237"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8A"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e4406ad-0cea-49e1-bb6e-1d73dc2f8bdc")
+		)
+		(instances
+			(project "zynq7000"
+				(path "/b3b2a4a2-12d8-4419-9374-817f22e1ad00/8d47efff-76f0-43ba-adb9-45c9baf70905"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 67.31 0)
 		(unit 1)
@@ -2553,7 +2603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AudioJack4"
+		(property "Value" "PJ320D"
 			(at 190.5 99.06 0)
 			(effects
 				(font
@@ -3409,6 +3459,71 @@
 			(project "zynq7000"
 				(path "/b3b2a4a2-12d8-4419-9374-817f22e1ad00/8d47efff-76f0-43ba-adb9-45c9baf70905"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 143.51 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d15a70aa-b603-489b-af96-28611f9a8274")
+		(property "Reference" "#PWR0236"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8A"
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75dec482-0bcb-4735-a477-15f96bd3fe94")
+		)
+		(instances
+			(project "zynq7000"
+				(path "/b3b2a4a2-12d8-4419-9374-817f22e1ad00/8d47efff-76f0-43ba-adb9-45c9baf70905"
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
